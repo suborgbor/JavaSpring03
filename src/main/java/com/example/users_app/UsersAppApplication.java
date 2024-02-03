@@ -1,13 +1,13 @@
-package com.example.sem3HomeTask;
+package com.example.users_app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Sem3HomeTaskApplication {
+public class UsersAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Sem3HomeTaskApplication.class, args);
+		SpringApplication.run(UsersAppApplication.class, args);
 	}
 
 }

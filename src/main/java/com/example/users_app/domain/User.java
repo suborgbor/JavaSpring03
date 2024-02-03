@@ -1,7 +1,6 @@
-package com.example.sem3HomeTask.domain;
+package com.example.users_app.domain;
 
 public class User {
-
     private String name;
     private int age;
     private String email;
@@ -30,3 +29,5 @@ public class User {
         this.email = email;
     }
 }
+
+
