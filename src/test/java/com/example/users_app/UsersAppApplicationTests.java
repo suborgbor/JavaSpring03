@@ -1,10 +1,10 @@
-package com.example.sem3HomeTask;
+package com.example.users_app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Sem3HomeTaskApplicationTests {
+class UsersAppApplicationTests {
 
 	@Test
 	void contextLoads() {

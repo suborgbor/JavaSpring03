@@ -1,13 +1,11 @@
-package com.example.sem3HomeTask.services;
+package com.example.users_app.services;
 
-import com.example.sem3HomeTask.domain.User;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.users_app.domain.User;
 import org.springframework.stereotype.Service;
 
 @Service
 public class UserService {
 
-   // @Autowired
     private NotificationService notificationService;
 
     // Внедрение зависимости через конструктор

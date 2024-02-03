@@ -1,7 +1,7 @@
-package com.example.sem3HomeTask.services;
+package com.example.users_app.services;
 
-import com.example.sem3HomeTask.domain.User;
-import com.example.sem3HomeTask.repository.UserRepository;
+import com.example.users_app.domain.User;
+import com.example.users_app.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,7 +18,6 @@ public class DataProcessingService {
 
     @Autowired
     private UserRepository repository;
-
 
     public List<User> sortUsersByAge(List<User> users) {
         return users.stream()
@@ -39,8 +38,7 @@ public class DataProcessingService {
                 .orElse(0);
     }
 
-    public void  addUserToList(User user)
-    {
+    public void addUserToList(User user) {
         repository.getUsers().add(user);
     }
 }
